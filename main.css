@@ -41,7 +41,7 @@ body {
   top: 277px;
   right: 45%;
   width: 60px;
-  height: 2px;
+  height: 4px;
   background: #8cd790;
   border-radius: 31px;
 }
@@ -82,8 +82,8 @@ body {
   align-items: center;
   justify-content: center;
   margin: auto;
-  max-width: 70px;
-  height: 70px;
+  max-width: 50px;
+  height: 50px;
   background: #8cd790;
   border-radius: 10px;
 }
@@ -97,4 +97,16 @@ body {
 
 #br {
   border-bottom-right-radius: 38px;
+}
+@media only screen and (max-width: 630px) {
+  .button-wrapper #equal {
+    background: content-box radial-gradient(black, green, yellow);
+    border-radius: 50%;
+    max-width: 50px;
+    height: 50px;
+  }
+  .button-wrapper #trg {
+    font-size: 40px;
+    color: rgb(17, 128, 17);
+  }
 }
