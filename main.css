@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8cd790;
+  font-family: "Dosis", sans-serif;
+}
+
+.calculation {
+  /* margin-top: 20px; */
+  position: relative;
+  top: 30px;
+  width: 90%;
+  max-width: 478px;
+  max-height: 782px;
+  background: #ffffff;
+  border-radius: 38px;
+  margin: 0 auto;
+  text-align: center;
+}
+.input-wrapper {
+  height: 292px;
+  text-align: left;
+  /* margin-top: 75px; */
+  padding-bottom: 80px;
+}
+.application-name {
+  padding: 34px;
+  max-width: 219px;
+  max-height: 63px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 63px;
+  color: #466c48;
+}
+.line {
+  position: absolute;
+  top: 277px;
+  right: 45%;
+  width: 60px;
+  height: 2px;
+  background: #8cd790;
+  border-radius: 31px;
+}
+.button-wrapper {
+  max-width: 478px;
+  height: 400px;
+  background: #d7fff1;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  border-bottom-left-radius: 38px;
+  border-bottom-right-radius: 38px;
+}
+.button-wrapper button {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  color: #000000;
+  background-color: #d7fff1;
+  border: none;
+  border-radius: 12px;
+  transition: 6.9 s;
+}
+
+.button-wrapper :hover {
+  background-color: #cbaf785d;
+}
+
+.button-wrapper #trg {
+  font-size: 30px;
+  text-align: center;
+  border-bottom-left-radius: 38px;
+}
+.button-wrapper #equal {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 70px;
+  height: 70px;
+  background: #8cd790;
+  border-radius: 10px;
+}
+#cl-green {
+  color: #8cd790;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: center;
+}
+
+#br {
+  border-bottom-right-radius: 38px;
+}
