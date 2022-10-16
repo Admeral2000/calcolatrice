@@ -10,7 +10,6 @@ body {
 }
 
 .calculation {
-  /* margin-top: 20px; */
   position: relative;
   top: 30px;
   width: 90%;
@@ -24,7 +23,6 @@ body {
 .input-wrapper {
   height: 292px;
   text-align: left;
-  /* margin-top: 75px; */
   padding-bottom: 80px;
 }
 .application-name {
@@ -39,8 +37,8 @@ body {
 .line {
   position: absolute;
   top: 277px;
-  right: 45%;
-  width: 60px;
+  right: 44%;
+  width: 70px;
   height: 4px;
   background: #8cd790;
   border-radius: 31px;
@@ -64,7 +62,6 @@ body {
   background-color: #d7fff1;
   border: none;
   border-radius: 12px;
-  transition: 6.9 s;
 }
 
 .button-wrapper :hover {
@@ -99,6 +96,31 @@ body {
   border-bottom-right-radius: 38px;
 }
 @media only screen and (max-width: 630px) {
+  .calculation {
+    max-height: 752px;
+  }
+  .input-wrapper {
+    height: 252px;
+    text-align: left;
+    padding-bottom: 80px;
+  }
+  .application-name {
+    padding: 34px;
+    max-width: 219px;
+    max-height: 63px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    color: #466c48;
+  }
+  .line {
+    width: 60px;
+    top: 237px;
+    right: 42%;
+  }
+  .button-wrapper {
+    height: 370px;
+  }
   .button-wrapper #equal {
     background: content-box radial-gradient(black, green, yellow);
     border-radius: 50%;
